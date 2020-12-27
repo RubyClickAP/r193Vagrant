@@ -20,6 +20,7 @@ git clone https://github.com/RubyClickAP/ruby-build.git /opt/.rbenv/plugins/ruby
 /opt/.rbenv/plugins/ruby-build/install.sh
 
 curl -fsSL https://gist.github.com/FiveYellowMice/c50490693d47577cfe7e6ac9fc3bf6cf.txt | rbenv install --patch 1.9.3-p551
+#rbenv install --patch 1.9.3-p551 # notworking, Test on 27Dec2020
 rbenv global 1.9.3-p551
 rbenv rehash
 
